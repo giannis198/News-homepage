@@ -82,3 +82,27 @@
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+.section2__title {
+  @apply text-off_white text-[1.3rem] font-bold;
+}
+
+.section2__desc {
+  @apply text-grayish_blue pb-5 text-[0.93rem];
+}
+
+.section2:last-child {
+  @apply pb-0;
+}
+
+.section3__number {
+  @apply text-grayish_blue text-3xl font-extrabold;
+}
+
+.section3__title {
+  @apply text-[1.15rem] font-extrabold;
+}
+
+.section3__desc {
+  @apply text-dark_grayish_blue text-[0.93rem];
+}
