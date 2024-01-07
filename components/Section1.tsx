@@ -5,7 +5,7 @@ import Link from "next/link";
 const Section1 = () => {
   return (
     <section className="grid-cols-2 gap-x-8 gap-y-6 space-y-4 lg:grid">
-      <div className="col-span-2">
+      <div className="col-span-2 pb-5 lg:pb-0">
         <Image
           className="h-auto w-auto lg:hidden"
           src="/image-web-3-mobile.jpg"
