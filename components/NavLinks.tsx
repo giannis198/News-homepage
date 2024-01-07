@@ -5,7 +5,7 @@ const NavLinks = () => {
   return (
     <div className="grid gap-5 pt-20 text-xl font-normal text-very_dark_blue lg:grid-flow-col lg:gap-x-16 lg:pt-0">
       {navLinks.map((link) => (
-        <Link className="hover:opacity-50" key={link} href="#">
+        <Link className="hover:text-soft_red" key={link} href="#">
           {link}
         </Link>
       ))}

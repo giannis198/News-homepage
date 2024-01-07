@@ -84,7 +84,7 @@
 }
 
 .section2__title {
-  @apply text-[1.3rem] font-bold text-off_white hover:opacity-50;
+  @apply text-[1.3rem] font-bold text-off_white hover:text-soft_red;
 }
 
 .section2__desc {
@@ -100,7 +100,7 @@
 }
 
 .section3__title {
-  @apply text-[1.15rem] font-extrabold hover:opacity-50;
+  @apply text-[1.15rem] font-extrabold hover:text-soft_red;
 }
 
 .section3__desc {
