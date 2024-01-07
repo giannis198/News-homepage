@@ -14,7 +14,6 @@ const Section1 = () => {
           alt="image web 3 mobile"
         />
         <Image
-          priority
           className="hidden lg:block"
           src="/image-web-3-desktop.jpg"
           width={1440}
@@ -22,14 +21,13 @@ const Section1 = () => {
           alt="image web 3 mobile"
         />
       </div>
-      <div>
-        <Link
-          href="#"
-          className="text-5xl font-extrabold text-very_dark_blue hover:text-soft_red"
-        >
-          The Bright Future of Web 3.0?
-        </Link>
-      </div>
+
+      <Link
+        href="#"
+        className="text-5xl font-extrabold text-very_dark_blue hover:text-soft_red"
+      >
+        The Bright Future of Web 3.0?
+      </Link>
 
       <div className="space-y-5">
         <p className="font-normal leading-7 text-dark_grayish_blue">

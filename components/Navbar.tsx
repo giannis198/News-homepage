@@ -4,7 +4,7 @@ import NavLinks from "./NavLinks";
 
 const Navbar = () => {
   return (
-    <nav className="container my-6 flex items-center justify-between lg:py-10">
+    <nav className="container my-6 flex items-center justify-between lg:my-10">
       <Image src="/logo.svg" height={40} width={65} alt="w" />
       <MobileMenu />
       <div className="hidden lg:block">
