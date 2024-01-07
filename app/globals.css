@@ -84,11 +84,11 @@
 }
 
 .section2__title {
-  @apply text-off_white text-[1.3rem] font-bold;
+  @apply text-[1.3rem] font-bold text-off_white hover:opacity-50;
 }
 
 .section2__desc {
-  @apply text-grayish_blue pb-5 text-[0.93rem];
+  @apply pb-5 text-[0.93rem] text-grayish_blue;
 }
 
 .section2:last-child {
@@ -96,13 +96,13 @@
 }
 
 .section3__number {
-  @apply text-grayish_blue text-3xl font-extrabold;
+  @apply text-3xl font-extrabold text-grayish_blue;
 }
 
 .section3__title {
-  @apply text-[1.15rem] font-extrabold;
+  @apply text-[1.15rem] font-extrabold hover:opacity-50;
 }
 
 .section3__desc {
-  @apply text-dark_grayish_blue text-[0.93rem];
+  @apply text-[0.93rem] text-dark_grayish_blue;
 }

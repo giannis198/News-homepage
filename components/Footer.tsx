@@ -1,14 +1,16 @@
+import Link from "next/link";
+
 const Footer = () => {
   return (
-    <div className="attribution">
+    <div className="attribution mx-auto my-auto">
       Challenge by{" "}
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+      <Link href="https://www.frontendmentor.io?ref=challenge" target="_blank">
         Frontend Mentor
-      </a>
+      </Link>
       . Coded by{" "}
-      <a href="https://www.linkedin.com/in/ioannis-nikitopoulos-547a99122/">
+      <Link href="https://www.linkedin.com/in/ioannis-nikitopoulos-547a99122/">
         Ioannis Nikitopoulos
-      </a>
+      </Link>
       .
     </div>
   );

@@ -6,13 +6,14 @@ const Section1 = () => {
     <section className="grid-cols-2 gap-x-8 gap-y-6 space-y-4 lg:grid">
       <div className="col-span-2">
         <Image
-          className="lg:hidden"
+          className="h-auto w-auto lg:hidden"
           src="/image-web-3-mobile.jpg"
           width={400}
           height={400}
           alt="image web 3 mobile"
         />
         <Image
+          priority
           className="hidden lg:block"
           src="/image-web-3-desktop.jpg"
           width={1440}
@@ -21,18 +22,18 @@ const Section1 = () => {
         />
       </div>
       <div>
-        <h1 className="text-very_dark_blue text-5xl font-extrabold">
+        <h1 className="text-5xl font-extrabold text-very_dark_blue">
           The Bright Future of Web 3.0?
         </h1>
       </div>
 
-      <div>
-        <p className="text-dark_grayish_blue font-normal leading-7">
+      <div className="space-y-5">
+        <p className="font-normal leading-7 text-dark_grayish_blue">
           We dive into the next evolution of the web that claims to put power of
           the platforms back into the hands of the people.But is it really
           fulfilling its promise?
         </p>
-        <Button className=" bg-soft_red rounded-none uppercase tracking-widest">
+        <Button className=" rounded-none bg-soft_red uppercase tracking-widest">
           read more
         </Button>
       </div>

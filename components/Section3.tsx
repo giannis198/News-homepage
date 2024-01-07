@@ -3,7 +3,10 @@ import Box from "./Box";
 
 const Section3 = () => {
   return (
-    <section className="space-y-5 pb-10">
+    <section
+      className="grid-cols-3 items-start  gap-x-12 space-y-5
+    pb-10 lg:grid lg:space-y-0"
+    >
       <Box
         imgUrl="/image-retro-pcs.jpg"
         title="Reviving Retro PCs"
