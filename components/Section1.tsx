@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Button } from "./ui/button";
+import Link from "next/link";
 
 const Section1 = () => {
   return (
@@ -22,9 +23,12 @@ const Section1 = () => {
         />
       </div>
       <div>
-        <h1 className="text-5xl font-extrabold text-very_dark_blue">
+        <Link
+          href="#"
+          className="text-5xl font-extrabold text-very_dark_blue hover:text-soft_red"
+        >
           The Bright Future of Web 3.0?
-        </h1>
+        </Link>
       </div>
 
       <div className="space-y-5">
